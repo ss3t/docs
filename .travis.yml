@@ -17,7 +17,7 @@ deploy:
   github-token: $GITHUB_TOKEN
   committer-from-gh: true
   skip-cleanup: true
-  local-dir: docs/.vuepress/dist
+  local-dir: .vuepress/dist
   on:
     branch: master
 
