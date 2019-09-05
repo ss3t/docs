@@ -1,5 +1,4 @@
 module.exports = {
-    base: '/docs/',
     title: 'Ss3t',
     description: 'Документация',
     themeConfig: {
