@@ -6,7 +6,7 @@ module.exports = {
             { text: 'Главная', link: '/' },
             { text: 'Быстрый старт', link: '/quick-start/' },
             // { text: 'Погружение', link: '/dive-into/' },
-            { text: 'Редактор', link: 'https://ss3t.github.io/editor/' },
+            { text: 'Редактор', link: 'https://editor.ss3t.io/' },
             { text: 'Discord', link: 'https://discord.gg/nBkFGnx' },
         ]
     }
