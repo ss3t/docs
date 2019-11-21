@@ -6,7 +6,7 @@
   "author": "youngpirate32 <youngpirate32@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^1.0.3"
+    "vuepress": "^1.2.0"
   },
   "scripts": {
     "dev": "vuepress dev",
