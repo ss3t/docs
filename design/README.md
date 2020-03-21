@@ -66,8 +66,6 @@ sidebarDepth: 5
 * `background-size`
 * `background-repeat`
 * `background-image`
-* `background-linear-gradient`
-* `background-radial-gradient`
 
 Так же доступы не описанные раннне теги (доступны только глобально)
 | Тег                                         | Описание                                                                                      |
