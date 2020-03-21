@@ -19,27 +19,27 @@ sidebarDepth: 5
     ```
 
 ## Список тегов
-| Тег                                                                 | Описание                                  |
-|---------------------------------------------------------------------|-------------------------------------------|
-| # text-color [{color}](#color)                                      | Цвет текста                               |
-| # font-size [{font-size}](#font-size)                               | Размер текста                             |
-| # text-align [{align}](#align)                                      | Выравнивание текста                       |
-| # line-height [{line-height}](#line-height)                         | Межстрочный интервал                      |
-| # letter-spacing [{letter-spacing}](#letter-spacing)                | Межбуквенный интервал                     |
-| # font-style [{font-style}](#font-style)                            | Начертание текста                         |
-| # font-weight [{font-weight}](#font-weight)                         | Насыщенность текста                       |
-| # text-decoration [{text-decoration}](#text-decoration)             | Оформление текста                         |
-| # font-family [{font-family}](#font-family)                         | Шрифт текста                              |
-| # background-color [{color}](#color)                                | Цвет фона                                 |
-| # background-image [{background-image}](#background-image)          | Изображение фона                          |
-| # background-size [{background-size}](#background-size)             | Размер фона                               |
-| # background-position [{background-position}](#background-position) | Позиция фона                              |
-| # background-repeat [{background-repeat}](#background-repeat)       | Повторение фона                           |
-| # image [{url}](#url)                                               | Вставка изображения                       |
-| # image-size [{width-size}](#width-size)                            | Размер изображения                        |
-| # image-position [{align}](#align)                                  | Позиционирование изображения              |
-| # game-font [{url}](#url)                                           | Ссылка на загрузку шрифта из Google Fonts |
-| # game-theme [{theme}](#theme)                                      | Выставление цветовой темы игры            |
+| Тег                                                                 | Описание                                                                                       |
+|---------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| # text-color [{color}](#color)                                      | Цвет текста                                                                                    |
+| # font-size [{font-size}](#font-size)                               | Размер текста                                                                                  |
+| # text-align [{align}](#align)                                      | Выравнивание текста                                                                            |
+| # line-height [{line-height}](#line-height)                         | Межстрочный интервал                                                                           |
+| # letter-spacing [{letter-spacing}](#letter-spacing)                | Межбуквенный интервал                                                                          |
+| # font-style [{font-style}](#font-style)                            | Начертание текста                                                                              |
+| # font-weight [{font-weight}](#font-weight)                         | Насыщенность текста                                                                            |
+| # text-decoration [{text-decoration}](#text-decoration)             | Оформление текста                                                                              |
+| # font-family [{font-family}](#font-family)                         | Шрифт текста                                                                                   |
+| # background-color [{color}](#color)                                | Цвет фона                                                                                      |
+| # background-image [{background-image}](#background-image)          | Изображение фона                                                                               |
+| # background-size [{background-size}](#background-size)             | Размер фона                                                                                    |
+| # background-position [{background-position}](#background-position) | Позиция фона                                                                                   |
+| # background-repeat [{background-repeat}](#background-repeat)       | Повторение фона                                                                                |
+| # image [{url}](#url)                                               | Вставка изображения                                                                            |
+| # image-size [{width-size}](#width-size)                            | Размер изображения                                                                             |
+| # image-position [{align}](#align)                                  | Позиционирование изображения                                                                   |
+| # game-font [{url}](#url)                                           | Ссылка на загрузку шрифта из Google Fonts. [Инструкция](#испоnьзование-шрифтов-с-google-fonts) |
+| # game-theme [{theme}](#theme)                                      | Выставление цветовой темы игры                                                                 |
 
 ## Глобальное оформление
 
@@ -203,7 +203,7 @@ sidebarDepth: 5
 * `Geneva, Arial, Helvetica, sans-serif`
 * `Georgia, 'Times New Roman', Times, serif`
 
-см. [раздел](#%D0%B8%D1%81%D0%BF%D0%BEn%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%88%D1%80%D0%B8%D1%84%D1%82%D0%BE%D0%B2-%D1%81-google-fonts) по установки и использованию шрифтов с сервиса Google Fonts
+см. [раздел](#испоnьзование-шрифтов-с-google-fonts) по установки и использованию шрифтов с сервиса Google Fonts
 
 ### url
 Обычная ссылка, например: https://ss3t.io/
