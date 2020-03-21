@@ -59,6 +59,7 @@ sidebarDepth: 5
 * `font-size`
 * `font-family`
 * `font-weight`
+* `font-style`
 * `line-height`
 * `letter-spacing`
 * `background-color`
