@@ -38,9 +38,8 @@ sidebarDepth: 5
 | # image [{url}](#url)                                               | Вставка изображения                       |
 | # image-size [{width-size}](#width-size)                            | Размер изображения                        |
 | # image-position [{align}](#align)                                  | Позиционирование изображения              |
-| # game-google-fonts [{url}](#url)                                   | Ссылка на загрузку шрифта из Google Fonts |
-| # game-disable-themes                                               | Отключение переключение тем               |
-| # game-enable-themes                                                | Включение переключение тем                |
+| # game-font [{url}](#url)                                           | Ссылка на загрузку шрифта из Google Fonts |
+| # game-theme [{theme}](#theme)                                      | Выставление цветовой темы игры            |
 
 ## Глобальное оформление
 
@@ -62,6 +61,8 @@ sidebarDepth: 5
 * `font-style`
 * `line-height`
 * `letter-spacing`
+* `text-align`
+* `text-decoration`
 * `background-color`
 * `background-position`
 * `background-size`
@@ -113,7 +114,7 @@ sidebarDepth: 5
 ```
 Мы получаем `https://fonts.googleapis.com/css?family=Baloo+2|Roboto&display=swap`, затем вставляем тег со ссылкой на шрифт в игру:
 ```
-# game-google-fonts https://fonts.googleapis.com/css?family=Baloo+2|Roboto&display=swap
+# game-font https://fonts.googleapis.com/css?family=Baloo+2|Roboto&display=swap
 ```
 И указываем в тех местах где нам нужно
 ```
@@ -261,3 +262,10 @@ sidebarDepth: 5
 * `center` Выравнивание текста по центру
 * `left` Выравнивание текста по левому краю
 * `right` Выравнивание текста по правому краю
+
+### theme
+Выставляет конкретную тему, может пригодиться если нет необходимости в переключение тем, что может облегчить процесс оформление игры отказавшись от одной из тем (не рекомендуется)
+
+* `auto` Тема подставляется автоматически, позволяет пользователю переключать тему
+* `light` Светлая тема, запрещает смену темы
+* `dark` Тёмная тема, запрещает смену темы
