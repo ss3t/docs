@@ -23,6 +23,7 @@ sidebarDepth: 5
 |---------------------------------------------------------------------|-------------------------------------------|
 | # text-color [{color}](#color)                                      | Цвет текста                               |
 | # font-size [{font-size}](#font-size)                               | Размер текста                             |
+| # text-align [{align}](#align)                                      | Выравнивание текста                       |
 | # line-height [{line-height}](#line-height)                         | Межстрочный интервал                      |
 | # letter-spacing [{letter-spacing}](#letter-spacing)                | Межбуквенный интервал                     |
 | # font-style [{font-style}](#font-style)                            | Начертание текста                         |
@@ -37,7 +38,6 @@ sidebarDepth: 5
 | # image [{url}](#url)                                               | Вставка изображения                       |
 | # image-size [{width-size}](#width-size)                            | Размер изображения                        |
 | # image-position [{align}](#align)                                  | Позицанирование изображения               |
-| # text-align [{align}](#align)                                      | Выравнивание текста                       |
 | # game-google-fonts [{url}](#url)                                   | Ссылка на загрузку шрифта из Google Fonts |
 | # game-disable-themes                                               | Отключение переключение тем               |
 | # game-enable-themes                                                | Включение переключение тем                |
