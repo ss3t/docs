@@ -1,7 +1,7 @@
 ---
 title: Быстрый старт
 sidebar: auto
-sidebarDepth: 5
+sidebarDepth: 6
 ---
 
 # Быстрый старт 
