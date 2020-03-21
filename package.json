@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "index.js",
   "repository": "https://github.com/fourth-law/docs.git",
   "author": "youngpirate32 <youngpirate32@gmail.com>",
