@@ -99,6 +99,31 @@ sidebarDepth: 5
 * `color-primary-shadow`
 * `text-color-choice`
 
+## Оформление абзацев
+Для оформления абзацев нужно использовать теги с префиксом `paragraph-`
+
+Абзацы отделяются пустой строкой
+
+Доступные теги для оформления целового абзаца:
+* `text-color`
+* `font-size`
+* `font-family`
+* `font-weight`
+* `font-style`
+* `line-height`
+* `letter-spacing`
+* `text-align`
+* `text-decoration`
+* `background-color`
+* `background-position`
+* `background-size`
+* `background-repeat`
+* `background-image`
+
+Примеры использования:
+* `paragraph-text-align center`
+* `paragraph-font-style italic`
+
 ## Использование шрифтов с [Google Fonts](https://fonts.google.com/)
 Тут будет показан пример как загрузить и использовать шрифты с сайта https://fonts.google.com/
 
