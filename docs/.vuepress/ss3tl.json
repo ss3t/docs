@@ -1,0 +1,68 @@
+{
+  "name": "ssthreet",
+  "scopeName": "ssthreet",
+  "fileTypes": [
+    "ss3t",
+    "ss3tl"
+  ],
+  "patterns": [
+    {
+      "include": "#proper-variable"
+    },
+    {
+      "include": "#loop"
+    },
+    {
+      "include": "#conditional"
+    },
+    {
+      "include": "#method"
+    },
+    {
+      "include": "#comment"
+    },
+    {
+      "include": "#string"
+    },
+    {
+      "include": "#io"
+    },
+    {
+      "include": "#pronoun"
+    },
+    {
+      "include": "#number"
+    },
+    {
+      "include": "#boolean"
+    },
+    {
+      "include": "#common"
+    },
+    {
+      "include": "#equal"
+    },
+    {
+      "include": "#comparator"
+    },
+    {
+      "include": "#arithmetic"
+    },
+    {
+      "include": "#string-assignment"
+    },
+    {
+      "include": "#null"
+    }
+  ],
+  "repository": {
+    "conditional": {
+      "patterns": [
+        {
+          "match": "~ (if|elseif|else)",
+          "name": "keyword.control.conditional.rockstar"
+        }
+      ]
+    }
+  }
+}
