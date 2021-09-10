@@ -5,8 +5,8 @@
   "author": "youngpirate32 <youngpirate32@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs -d ./dist"
+    "docs:dev": "vuepress dev vuepress",
+    "docs:build": "vuepress build vuepress -d ./docs"
   },
   "devDependencies": {
     "@vuepress/plugin-search": "2.0.0-beta.25",
